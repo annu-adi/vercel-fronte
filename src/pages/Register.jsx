@@ -22,7 +22,7 @@ const Register = () => {
     e.preventDefault(); 
     try{
       const response = await axios.post(
-        "https://vercel-backend-bqw8.vercel.app/v1/user/patient/register",
+        "https://vercel-backeee.vercel.app/v1/user/patient/register",
         {firstName, lastName, email, phone, nic, dob, gender, password, role:"Patient"},
         {
       withCredentials:true,
