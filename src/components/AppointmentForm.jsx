@@ -35,7 +35,7 @@ const AppointmentForm = () => {
   useEffect(() => {
     const fetchDoctors = async () => {
       const { data } = await axios.get(
-        "https://vercel-backeee.vercel.app/v1/user/doctors",
+        "https://vercel-backeee.vercel.app/api/v1/user/doctors",
         { withCredentials: true }
       );
       setDoctors(data.doctors);
